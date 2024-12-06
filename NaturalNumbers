@@ -1,5 +1,5 @@
 public static void Natualnumbers() {
-		int s,e;
+		int s,l;
 		System.out.println("enter a number s ");
 		Scanner input = new Scanner(System.in);
 		s=input.nextInt();

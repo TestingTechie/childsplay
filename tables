@@ -1,0 +1,20 @@
+
+
+public static void tables1(){
+		int s,e,m;
+		System.out.println("enter a starting number ");
+		Scanner input=new Scanner(System.in);
+		s=input.nextInt();
+		System.out.println("entered starting number is "+s);
+		System.out.println("enter a ending number  ");
+		e=input.nextInt();
+		System.out.println("entered ending number is  "+e);
+		System.out.println("enter a table number ");
+		m=input.nextInt();
+		System.out.println("entered table number is "+m);
+		
+		while(s<=e) {
+			System.out.println(s+"x"+m+" = "+(s*m));
+			s++;
+		}	
+	}

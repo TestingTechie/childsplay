@@ -1,0 +1,15 @@
+public static void Natualnumbers() {
+		int s,e;
+		System.out.println("enter a number s ");
+		Scanner input = new Scanner(System.in);
+		s=input.nextInt();
+		System.out.println("enter a starting number  "+s);
+		System.out.println("enter a number e  ");
+		e=input.nextInt();
+		System.out.println("enter a ending number  "+e);
+		
+		while(s<=e) {
+			System.out.println(s);
+			s++;
+		}
+	}
